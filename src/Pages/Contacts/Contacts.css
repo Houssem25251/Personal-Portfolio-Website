@@ -1,0 +1,65 @@
+.Contacts-Cards{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    margin-top:200px;
+    
+}
+.Contact-Page{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Contact-Card{
+    display:flex;
+    flex-direction:row;
+}
+.Contact-Text{
+    width:90px;
+    background:white;
+    padding:12px;
+    border-radius: 40px;
+    border-style:solid;
+    color:black;
+    font-size:25px;
+    border:none;
+    text-align: center;
+}
+.Contact-Value{
+    text-align: center;
+    width:480px;
+    background:none;
+    padding:10px;
+    border-radius: 40px;
+    border-left:none;
+    border-right-style:solid;
+    border-top-style:solid;
+    border-bottom-style:solid;
+    color:white;
+    font-size:25px;
+    margin-left:-50px;
+    padding-left:60px;
+}
+.Contact-Value-Link{
+    text-align: center;
+    width:480px;
+    background:none;
+    padding:10px;
+    border-radius: 40px;
+    border-left:none;
+    border-right-style:solid;
+    border-top-style:solid;
+    border-bottom-style:solid;
+    color:white;
+    font-size:25px;
+    margin-left:-50px;
+    padding-left:60px;
+    margin-top:25px;
+    height: 26px;
+    text-decoration: none;
+}
+.Contact-Value-Link:hover{
+    text-decoration: underline;
+}

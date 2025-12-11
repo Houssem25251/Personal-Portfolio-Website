@@ -1,0 +1,6 @@
+body {
+  background-image: url('./assets/Background.jpg');
+  background-size: cover;     /* makes the image fill the whole page */
+  background-repeat: no-repeat;
+  background-attachment: fixed;  /* optional: makes background stay in place */
+}

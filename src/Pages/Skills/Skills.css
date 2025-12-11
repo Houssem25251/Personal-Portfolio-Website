@@ -1,0 +1,161 @@
+.Skill-Image{
+    width:140px;
+    transition: all 0.5s ease;
+}
+.Skill-Text-Text{
+    color:rgb(0, 68, 130);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:30px;
+    margin-top:-8px;
+    margin-bottom:0px;
+    transition: all 0.5s ease;
+}
+.Skill-Text-Text.JS{
+    color:rgb(255, 214, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:30px;
+    margin-top:-8px;
+    margin-bottom:0px;
+    transition: all 0.5s ease;
+}
+.Skill-Text-Text.React{
+    color:rgb(128, 222, 234);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:30px;
+    margin-top:-8px;
+    margin-bottom:0px;
+    transition: all 0.5s ease;
+}
+.Skill-Text-Text.CSS{
+    color:rgb(3, 155, 229);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:30px;
+    margin-top:-8px;
+    margin-bottom:0px;
+    transition: all 0.5s ease;
+}
+.Skill-Text-Text.HTML{
+    color:rgb(230, 81, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:30px;
+    margin-top:-8px;
+    margin-bottom:0px;
+    transition: all 0.5s ease;
+}
+.Skill-Text{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:65px;
+    margin-top:-8px;
+    margin-bottom:0px;
+    transition: all 0.5s ease;
+}
+.Skill-Text.state{
+    font-size:30px;
+    color:rgb(0, 68, 130);
+}
+.Skill-Text.state.JS{
+    font-size:30px;
+    color:rgb(255, 214, 0);
+}
+.Skill-Text.state.React{
+    font-size:30px;
+    color:rgb(128, 222, 234);
+}
+.Skill-Text.state.CSS{
+    font-size:30px;
+    color:rgb(3, 155, 229);
+}
+.Skill-Text.state.HTML{
+    font-size:30px;
+    color:rgb(230, 81, 0);
+}
+.Skill-Container{
+    border-style: solid;
+    border-color:white;
+    border-radius: 30px;
+    border-width: 3px;
+    padding:15px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    height: 200px;
+    width:180px;
+    row-gap: 20px;
+    transition: all 0.5s ease;
+}
+.Skill-Container.state{
+    height: 350px;
+    background-color: white;
+}
+.Skills-Container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    column-gap:30px;
+}
+.Skill-Button{
+    width:130px;
+    height: 50px;
+    background-color: transparent;
+    border-style: solid;
+    border-color:white;
+    border-radius: 50px;
+    color:white;
+    font-size:20px;
+    border-width: 3px;
+    transition: background-color 0.5s ease;
+}
+.Skill-Button.state{
+    border-color:rgb(0, 68, 130);
+    color:rgb(0, 68, 130);
+}
+.Skill-Button.state.JS{
+    border-color:rgb(255, 214, 0);
+    color:rgb(255, 214, 0);
+}
+.Skill-Button.state.React{
+    border-color:rgb(128, 222, 234);
+    color:rgb(128, 222, 234);
+}
+.Skill-Button.state.CSS{
+    border-color:rgb(3, 155, 229);
+    color:rgb(3, 155, 229);
+}
+.Skill-Button.state.HTML{
+    border-color:rgb(230, 81, 0);
+    color:rgb(230, 81, 0);
+}
+.Skill-Button:hover{
+    cursor:pointer;
+    background-color:white;
+    color:black;
+}
+.Skill-Button.state:hover{
+    cursor:pointer;
+    background-color:rgb(0, 68, 130);
+    color:white;
+}
+.Skill-Button.state.JS:hover{
+    cursor:pointer;
+    background-color:rgb(255, 214, 0);
+    color:white;
+}
+.Skill-Button.state.React:hover{
+    cursor:pointer;
+    background-color:rgb(128, 222, 234);
+    color:white;
+}
+.Skill-Button.state.CSS:hover{
+    cursor:pointer;
+    background-color:rgb(3, 155, 229);
+    color:white;
+}
+.Skill-Button.state.HTML:hover{
+    cursor:pointer;
+    background-color:rgb(230, 81, 0);
+    color:white;
+}

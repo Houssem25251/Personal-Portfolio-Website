@@ -1,0 +1,74 @@
+.Project-Main-Image{
+    width:400px;
+}
+.Project-Sub-Image{
+    width:55px;
+    transition: all 0.5s ease;
+}
+.Project-Sub-Image:hover{
+    width:60px;
+}
+.Project-Main-Container{
+    margin-top:60px;
+    border-style: solid;
+    border-radius: 80px;
+    border-color:white;
+    border-width:4px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    width:520px;
+    align-items: center;
+    row-gap:0px;
+    padding:20px;
+    height: 700px;
+    transition: all 0.5s ease;
+}
+.Project-Main-Container:hover .Project-Button{
+    border-color: black;
+}
+.Project-Main-Container:hover *{
+    color:black;
+}
+.Project-Main-Container:hover {
+    background-color: white;
+}
+.Project-Title{
+    margin-bottom:0px;
+    font-size:25px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.5s ease;
+    text-align: center;
+}
+.Project-Description{
+    font-size:25px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.5s ease;
+    text-align: center;
+    word-break: break-word; 
+}
+.Project-Button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border-style:solid;
+    border-color:white;
+    border-width: 2px;
+    min-width:80px;
+    min-height: 10px;
+    text-align: center;
+    height: 50px;
+    padding-left:5px;
+    padding-right:5px;
+    border-radius: 20px;
+    font-size:20px;
+    color:white;
+    text-decoration: none;
+}
+.Projects-Container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
