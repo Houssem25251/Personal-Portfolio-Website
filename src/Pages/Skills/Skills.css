@@ -159,3 +159,82 @@
     background-color:rgb(230, 81, 0);
     color:white;
 }
+
+@media (max-width: 1024px){
+    .Skills-Container{
+        display:grid;
+        grid-template-columns: repeat(3, auto);
+        column-gap:15px;
+        row-gap:25px;
+        height:auto;
+        justify-content:center;
+        margin-top:110px;
+    }
+
+    .Skill-Container{
+        width:160px;
+        height:180px;
+    }
+    .Skill-Image{
+        width:120px;
+    }
+    .Skill-Text{
+        font-size:55px;
+    }
+}
+
+@media (max-width: 768px){
+    .Skills-Container{
+        flex-wrap:wrap;
+        height:auto;
+        row-gap:30px;
+        padding-top:40px;
+        padding-bottom:40px;
+    }
+    .Skill-Container{
+        width:160px;
+        height:200px;
+    }
+    .Skill-Image{
+        width:110px;
+    }
+    .Skill-Text{
+        font-size:50px;
+    }
+}
+
+@media (max-width: 414px){
+    .Skills-Container{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap:20px;
+        height:auto;
+        padding-top:20px;
+        padding-bottom:20px;
+    }
+    .Skill-Container{
+        width:160px;
+        height:auto;
+        row-gap:12px;
+    }
+    .Skill-Image{
+        width:90px;
+    }
+    .Skill-Text{
+        font-size:35px;
+    }
+    .Skill-Text-Text,
+    .Skill-Text-Text.JS,
+    .Skill-Text-Text.React,
+    .Skill-Text-Text.CSS,
+    .Skill-Text-Text.HTML{
+        font-size:18px;
+    }
+    .Skill-Button{
+        width:110px;
+        height:40px;
+        font-size:16px;
+    }
+}
+

@@ -1,5 +1,6 @@
 import FirstProject from '../../assets/Projects/1.png';
 import SecondProject from '../../assets/Projects/2.png';
+import ThirdProject from '../../assets/Projects/3.png';
 import HTML from '../../assets/Skills/HTML.png';
 import CSS from '../../assets/Skills/CSS.png';
 import JS from '../../assets/Skills/JS.png';
@@ -25,13 +26,16 @@ class Project{
         this.technologies=d;
         this.image=e;
         this.online=f;
+        this.link=g;
     }
 }
 
 const ProjectFirst=new Project(crypto.randomUUID,"First Portfolio Project","My first personal portfolio website, designed to showcase my projects, skills, and learning journey as a software engineering student, with a clean and responsive layout.",
 [HTML,CSS,JS],FirstProject,false);
-const ProjectSecond=new Project(crypto.randomUUID,"Main Portfolio Website","My main personal portfolio website, designed to showcase my projects, experiences, and about and contact sections, with a clean, modern, and responsive layout, representing a more advanced and polished version of my first portfolio.",
-[HTML,CSS,JS,React],SecondProject,true);
+const ProjectSecond=new Project(crypto.randomUUID,"Main Portfolio Website","This new portfolio is a major upgrade from my previous website.More advanced, faster, and better designed to showcase my work clearly and professionally.",
+[HTML,CSS,JS,React],SecondProject,true,"https://houssemeddinezaier.netlify.app");
+const ProjectThird=new Project(crypto.randomUUID,"E-Book Reading Website","This is my second personnel React frontend project,it's an E-Book reading website and is a part of my learning journey.A lot of time and commitment were put into this project.",
+[HTML,CSS,JS,React],ThirdProject,true,"https://houssemlibrary.netlify.app");
 
 function ProjectCard({p}){
         return(
@@ -46,8 +50,8 @@ function ProjectCard({p}){
                             )
                         })}
                     </div>
-                    {p.online && <Link to={p.Link} className="Project-Button">Link</Link>}
-                    {!p.online && <p className="Project-Button">Available Locally Only</p>}
+                    {p.online && <Link to={p.link} className="Project-Button">Link</Link>}
+                    {!p.online && <Link to={p.link} className="Project-Button">Not Available</Link>}
             </div>
         )
 }
@@ -55,7 +59,7 @@ function ProjectCard({p}){
 export function Projects(){
     const [ProjectsA,setProject]=useState([]);
     function updateProjectA(){
-        setProject([...ProjectsA,ProjectFirst,ProjectSecond])
+        setProject([...ProjectsA,ProjectFirst,ProjectSecond,ProjectThird])
     }
     useEffect(()=>{updateProjectA()},[]);
     return(

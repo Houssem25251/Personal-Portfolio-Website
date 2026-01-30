@@ -22,7 +22,7 @@ const FirstAbout=new About(crypto.randomUUID(),"Who Am I?","I’m a software eng
 const SecondAbout=new About(crypto.randomUUID(),"My Motivation","I focus on creating software that is efficient, well-structured, and genuinely useful to users.",Motivation);
 const ThirdAbout=new About(crypto.randomUUID(),"My Values","I prioritize discipline, professionalism, and precision in my work, and I aim to deliver solutions that are clear, reliable, and well-designed.",Values);
 const FourthAbout=new About(crypto.randomUUID(),"My Hobbies","Outside of technology, I practice kickboxing to develop physical and mental rigor. I also enjoy video games, reading, and exploring new topics.",Hobbies);
-const FifthAbout=new About(crypto.randomUUID(),"My Goals","My long-term goal is to become a well-rounded software engineer, contributing to innovative projects that have a meaningful and positive impact.",Goals);
+const FifthAbout=new About(crypto.randomUUID(),"My Goals","My long-term goal is to become a well-rounded software engineer,who has a vast technical and logical knowledge in all different fields.",Goals);
 function AboutCard({a}){
     return(
         <div className="About-Card">

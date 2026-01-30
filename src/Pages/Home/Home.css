@@ -17,3 +17,33 @@
 .Sub-Text{
     font-weight: bold;
 }
+
+@media (max-width: 1024px){
+    .Home-Text{
+        margin-top:220px;
+        font-size:60px;
+    }
+    .Text{
+        font-size:40px;
+    }
+}
+
+@media (max-width: 768px){
+    .Home-Text{
+        margin-top:300px;
+        font-size:45px;
+    }
+    .Text{
+        font-size:30px;
+    }
+}
+
+@media (max-width: 414px){
+    .Home-Text{
+        margin-top:140px;
+        font-size:50px;
+    }
+    .Text{
+        font-size:30px;
+    }
+}

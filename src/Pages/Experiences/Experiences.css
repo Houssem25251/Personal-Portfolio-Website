@@ -67,3 +67,89 @@
     background-color:white;
     color:black;
 }
+
+@media (max-width: 1024px){
+    .Experience-Card{
+        width:260px;
+        height:340px;
+        padding-left:20px;
+        padding-right:20px;
+    }
+    .Experience-Image{
+        width:260px;
+        margin-bottom:-50px;
+    }
+    .Experience-Company,
+    .Experience-Description,
+    .Experience-Duration,
+    .Experience-Title{
+        font-size:22px;
+    }
+    .Experience-Button{
+        width:110px;
+        height:40px;
+        font-size:18px;
+    }
+    .Experience-Card.yes{
+        background-color: white;
+        height: 600px;
+}
+}
+
+@media (max-width: 768px){
+    .Experience-Card{
+        width:240px;
+        height:320px;
+        padding-left:15px;
+        padding-right:15px;
+    }
+    .Experience-Image{
+        width:220px;
+        margin-bottom:-40px;
+    }
+    .Experience-Company,
+    .Experience-Description,
+    .Experience-Duration,
+    .Experience-Title{
+        font-size:20px;
+    }
+    .Experience-Button{
+        width:100px;
+        height:38px;
+        font-size:16px;
+    }
+    .Experience-Card.yes{
+    background-color: white;
+    height: 530px;
+}
+}
+@media (max-width: 414px){
+    .Experience-Card{
+        width:180px;
+        height:auto;
+        padding-left:10px;
+        padding-right:10px;
+        row-gap:6px;
+    }
+    .Experience-Image{
+        width:150px;
+        margin-bottom:-20px;
+    }
+    .Experience-Company,
+    .Experience-Description,
+    .Experience-Duration,
+    .Experience-Title{
+        font-size:16px;
+    }
+    .Experience-Button{
+        width:90px;
+        height:36px;
+        font-size:14px;
+    }
+    .Experience-Card.yes{
+    background-color: white;
+    height: 460px;
+
+}
+}
+

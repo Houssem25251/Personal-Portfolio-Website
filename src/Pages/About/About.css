@@ -53,3 +53,97 @@
     background-color:white;
     color:black;
 }
+
+@media (max-width: 1024px){
+    .Abouts-Card{
+        grid-template-columns: repeat(3, 1fr);
+        column-gap:20px;
+        row-gap:25px;
+    }
+    .About-Card{
+        padding:30px;
+        height:450px;
+        width:250px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .About-Image{
+        width:240px;
+    }
+    .About-Text{
+        font-size:18px;
+    }
+    .About-Title{
+        font-size:26px;
+    }
+    .About-Button{
+        width:100px;
+        height:38px;
+        font-size:18px;
+    }
+}
+
+@media (max-width: 768px){
+    .Abouts-Card{
+        grid-template-columns: repeat(2, 1fr);
+        column-gap:15px;
+        row-gap:20px;
+    }
+    .About-Card{
+        padding:25px;
+        height:420px;
+        width:290px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .About-Image{
+        width:280px;
+    }
+    .About-Text{
+        font-size:16px;
+    }
+    .About-Title{
+        font-size:24px;
+    }
+    .About-Button{
+        width:90px;
+        height:36px;
+        font-size:16px;
+    }
+}
+
+@media (max-width: 414px){
+    .Abouts-Card{
+        place-items: center;
+        grid-template-columns: 1fr;
+        row-gap:20px;
+        column-gap:0;
+    }
+    .About-Card{
+        padding:20px;
+        height:auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .About-Image{
+        width:200px;
+    }
+    .About-Text{
+        font-size:14px;
+    }
+    .About-Title{
+        font-size:20px;
+    }
+    .About-Button{
+        width:80px;
+        height:34px;
+        font-size:14px;
+    }
+}
+
